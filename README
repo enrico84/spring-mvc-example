@@ -8,7 +8,7 @@ Tecnologie usate:
 Creare in Eclipse un Server di tipo Tomcat, collegandolo al server apache-tomcat-9.0.43 scaricato in locale.
 
 Importare il progetto come MavenProject, oppure per crearlo da zero creare un Dynamic Web Project. 
-Creare un Dynamic Web Project in Eclipse e convertirlo in un progetto Maven: tasto detro sul progetto -> Configure > Convert to Maven Project -> come groupId inserire "com.capone.mvc", come artifactId "spring-mvc-example". 
+Creare un Dynamic Web Project in Eclipse e convertirlo in un progetto Maven: tasto detro sul progetto -> Configure -> Convert to Maven Project -> come groupId inserire "com.capone.mvc", come artifactId "spring-mvc-example". 
 I package da creare sono "com.capone.controller", "com.capone.model", "com.capone.service".
 
 Il progetto deve avere il file web.xml che gestisce la "DispatchServelt e il file di Configurazione dei bean di Spring "enrico-servet.xml": questi si trovano o vanno creati sotto WebContent/WEB-INF (Il nome del file "enrico-servet.xml" deve matchare con il valore dei tag "enrico</servlet-name"> e "/WEB-INF/enrico-servlet.xml" nel file web.xml.
@@ -18,9 +18,13 @@ sotto il Server si vedrà il progetto aggiunto. Per far partire il server tasto 
 oppure Debug se si vuole startare il server in modalità di Debug. 
 Dopo che il server Tomcat è partito, andare dal browser all'indirizzo "http://localhost:8080/spring-mvc-example".
 
-Info su come installare Tomcat in Eclipse: https://crunchify.com/step-by-step-guide-to-setup-and-install-apache-tomcat-server-in-eclipse-development-environment-ide/
+Info su come installare Tomcat in Eclipse: 
+https://crunchify.com/step-by-step-guide-to-setup-and-install-apache-tomcat-server-in-eclipse-development-environment-ide/
 
-Info su come si crea un progetto SpringMVC qui: https://www.javatpoint.com/spring-mvc-crud-example https://www.codejava.net/frameworks/spring/spring-mvc-beginner-tutorial-with-spring-tool-suite-ide https://www.codejava.net/frameworks/spring/spring-mvc-spring-data-jpa-hibernate-crud-example
+Info su come si crea un progetto SpringMVC qui: 
+https://www.javatpoint.com/spring-mvc-crud-example 
+https://www.codejava.net/frameworks/spring/spring-mvc-beginner-tutorial-with-spring-tool-suite-ide 
+https://www.codejava.net/frameworks/spring/spring-mvc-spring-data-jpa-hibernate-crud-example
 
 *** SPRING MVC - CONFIGURAZIONE TRAMITE FILE XML ***
 - Ci sono essenzialmente due file che gestiscono la configurazione di SPringMVC, il WEB.XML e il DISPATCHER-CONFIG.XML.
